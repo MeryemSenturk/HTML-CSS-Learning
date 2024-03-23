@@ -1,0 +1,46 @@
+
+main{
+    text-align: center;
+ 
+}
+
+.img{
+
+   margin-top: 1.5rem;
+   display: grid;
+  display: flex;
+  flex-wrap: wrap;
+
+justify-content: center;
+grid-template-columns: 5fr;
+grid-template-rows: auto;
+gap: 1.2rem 5rem;
+
+}
+
+.img-item{
+  width: 200px;
+  height: 250px;
+  border-radius: 20px;
+}
+
+.img p{
+  background-color: rgba(128, 128, 128, 0.637);
+  padding: .3rem;
+   width: 200px;
+   font-size: small;
+   font-family: Georgia, 'Times New Roman', Times, serif;
+   border-top-left-radius: 5px;
+   border-bottom-right-radius: 5px;
+}
+
+.img h3{
+  margin-top: .3rem;
+}
+.par{
+    background-color: rgb(46, 43, 226);
+    margin: 20px 220px;
+    font-weight: bold;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    padding: .5rem;
+}
